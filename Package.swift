@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "BigDecimal",
     platforms: [
-        .macOS("13.3"), .iOS(.v15), .macCatalyst(.v15), .tvOS(.v15),
+        .macOS("13.3"), .iOS("16.4"), .macCatalyst(.v16), .tvOS("16.4"),
         .watchOS("9.4")
     ],
     products: [
